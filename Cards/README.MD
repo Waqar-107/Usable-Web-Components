@@ -1,0 +1,1 @@
+1. a card that i made in 4-1 for our final year project "vashaShikkha". note that there is no js use, to update progress bar or to change color of the heart when a topic is added to favourite should be handled with js
