@@ -1,3 +1,14 @@
 # Usable-Web-Components
 
-various things that can be used to develop a website. there are raw codes that can be converted into react code if necessary
+# Cards
+
+<h5>1. a card that i made in 4-1 for our final year project "vashaShikkha". note that there is no js used, to update progress bar or to change color of the heart when a topic is added to favourite should be handled with js</h5>
+
+<img src="https://github.com/Waqar-107/Usable-Web-Components/blob/master/assets_for_readme/c1.PNG" height="200px" width="150px">
+
+# Hamburger Menu
+
+1. from => https://www.youtube.com/watch?v=DZg6UfS5zYg 
+
+<img src="https://github.com/Waqar-107/Usable-Web-Components/blob/master/assets_for_readme/ham1.gif" width="250" height="300" />
+
