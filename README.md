@@ -10,7 +10,7 @@
 
 1. from => https://www.youtube.com/watch?v=DZg6UfS5zYg
 
-i have also converted it into react component with jss. use it like -> <i>"<HamburgerMenu/>"</i>
+i have also converted it into react component with jss. use it like -> <i>\<HamburgerMenu/></i>
 
 <img src="https://github.com/Waqar-107/Usable-Web-Components/blob/master/assets_for_readme/ham1.gif" width="250" height="300" />
 
