@@ -110,23 +110,6 @@ const styles = theme => ({
         }
     },
 
-    // /* Toggler Animation */
-    // .menu-wrap .toggler:checked + .hamburger > div {
-    //     transform: rotate(135deg);
-    // }
-
-    // /* Turns Lines Into X */
-    // .menu-wrap .toggler:checked + .hamburger > div:before,
-    // .menu-wrap .toggler:checked + .hamburger > div:after {
-    //     top: 0;
-    //     transform: rotate(90deg);
-    // }
-
-    // /* Rotate On Hover When Checked */
-    // .menu-wrap .toggler:checked:hover + .hamburger > div {
-    //     transform: rotate(225deg);
-    // }
-
     menu: {
         position : "fixed",
         top : "0",
