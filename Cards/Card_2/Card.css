@@ -1,9 +1,8 @@
 body {
-    background-color: black;
+    background-color: beige;
 }
 
 .card_root {
-    position: absolute;
     width: 240px;
     height: 350px;
     background-color: white;
@@ -13,15 +12,8 @@ body {
 }
 
 .card_body1 {
-    position: absolute;
     width: 100%;
     height: 55%;
-
-    /* display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    align-items: center; */
 }
 
 .card_body1_surface {
@@ -95,13 +87,33 @@ body {
 
     border-radius: 66px;
 
-    background-color: white;
+    background-color: red;
     transition: all 0.3s ease 0s;
+}
+
+.dp_inside {
+    border-radius: 66px;
+
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center right;
+    /* transition: all 0.3s ease 0s; */
+}
+
+.card_root:hover .actual_dp {
+    height: 100px;
+    width: 100px;
+
+    left: 70px;
+    top: 40px;
+
+    border-radius: 50px;
 }
 
 /*=================================================================*/
 .card_body2 {
-    position: absolute;
     width: 100%;
     height: 33%;
 
@@ -128,10 +140,22 @@ body {
 
 /*=================================================================*/
 .card_body3 {
-    position: absolute;
     width: 100%;
     height: 12%;
+}
 
+.card_body3_surface {
+    height: 100%;
+    width: 100%;
+
+    position: relative;
+}
+
+.card_body3_finalLayer {
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
     top: 100%;
 
     display: flex;
@@ -142,11 +166,11 @@ body {
 
     opacity: 0.9;
     background-color: #1369ce;
-    transition: all 0.5s ease 0s;
+    transition: all 0.3s ease 0s;
 }
 
-.card_root:hover .card_body3 {
-    top: 88%;
+.card_root:hover .card_body3_finalLayer {
+    top: 0%;
 }
 
 .social_box {
@@ -175,4 +199,18 @@ body {
 .social_box:hover .socialLink {
     color: #1369ce;
     background-color: #f7f5ec;
+}
+
+.test {
+    width: 100%;
+    height: 100%;
+
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
 }
