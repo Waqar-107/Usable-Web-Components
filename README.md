@@ -12,7 +12,7 @@ idea is taken from-> https://codepen.io/FrankieDoodie/pen/NOJpVX though the code
 
 </h5>
 
-<img src="https://github.com/Waqar-107/Usable-Web-Components/blob/master/assets_for_readme/c2.gif" height="300" width="700">
+<img src="https://github.com/Waqar-107/Usable-Web-Components/blob/master/assets_for_readme/c2.gif" height="200" width="500">
 
 # Hamburger Menu
 
