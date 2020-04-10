@@ -26,3 +26,8 @@ i have also converted it into react component with jss. use it like -> <i>\<Hamb
 
 1. give the name of the table and database and you will get the data in csv
    use <i>php database_to_csv.php</i> to execute
+
+# Notes
+
+1. when sending array using FormData from front-end to back-end, do:
+`formData.append('tag', JSON.stringify(tags));` in the front and `new_paper.tag = JSON.parse(req.body.tag);` in the back
